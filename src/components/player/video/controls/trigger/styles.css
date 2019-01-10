@@ -1,0 +1,22 @@
+.trigger {
+  z-index: 10;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.trigger svg {
+  fill: white;
+}
+
+.trigger button {
+  height: inherit;
+  border: none;
+  background: transparent;
+  outline: 0;
+  width: inherit;
+  box-sizing: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0;
+}

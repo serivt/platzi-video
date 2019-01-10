@@ -1,0 +1,13 @@
+.timer {
+  font-size: 14px;
+  color: white;
+  padding: 0 10px 0 0;
+  display: inline-block;
+  align-items: center;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.timer p {
+  margin: 0;
+}

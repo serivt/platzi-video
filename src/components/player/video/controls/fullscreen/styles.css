@@ -1,0 +1,22 @@
+.fullscreen {
+  z-index: 10;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.fullscreen svg {
+  fill: white;
+}
+
+.fullscreen button {
+  height: inherit;
+  border: none;
+  background: transparent;
+  outline: 0;
+  width: inherit;
+  box-sizing: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0;
+}

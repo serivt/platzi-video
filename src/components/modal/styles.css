@@ -1,0 +1,16 @@
+.modal__close {
+  position: absolute;
+  border: none;
+  background: transparent;
+  outline: 0;
+  box-sizing: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0;
+  z-index: 9;
+  right: 0;
+}
+
+.modal__close svg {
+  fill: white;
+}

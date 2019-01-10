@@ -1,0 +1,24 @@
+.playlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.playlist__grid {
+  flex-wrap: nowrap !important;
+  transform: translateZ(0);
+  width: 100%;
+}
+
+.playlist__icon {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.playlist__tilebar {
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%) !important;
+}
+
+.playlist__cover {
+  width: 100%;
+}

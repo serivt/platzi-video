@@ -1,0 +1,31 @@
+.volume {
+  z-index: 10;
+  height: 40px;
+  width: 160px;
+  display: inline-flex;
+}
+
+.volume svg {
+  fill: white;
+}
+
+.volume__button {
+  height: inherit;
+  border: none;
+  background: transparent;
+  outline: 0;
+  width: 40px;
+  box-sizing: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0;
+  display: inline-block;
+}
+
+.volume__slider {
+  width: 100px;
+  height: 40px;
+  margin-left: 5px;
+  display: inline-block;
+  padding-top: 20px;
+}
