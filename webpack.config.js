@@ -4,6 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 
 module.exports = (env) => {
+
   const plugins = [
     new ExtractTextPlugin("css/[name].[hash].css")
   ]

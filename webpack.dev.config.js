@@ -4,6 +4,8 @@ module.exports = {
   entry: {
     'home': path.resolve(__dirname, 'src/entries/home.js'),
   },
+  mode: 'development',
+  stats: 'errors-only',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].js'
